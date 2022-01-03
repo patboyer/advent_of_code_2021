@@ -1,8 +1,5 @@
 #!/usr/bin/ruby -w
 
-require 'pp'
-require 'pry'
-
 class Octopi 
 	attr_accessor :flashes
 
