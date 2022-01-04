@@ -1,8 +1,5 @@
 #!/usr/bin/ruby -w
 
-require 'pp'
-require 'pry'
-
 def find_pathA(caves, cave, path)
 	newpath = path.clone 
 
