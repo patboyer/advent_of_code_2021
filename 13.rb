@@ -32,7 +32,7 @@ folds.each do |f|
 
 	new_points.uniq!
 	points = new_points.clone
-	puts "#{f[0]}=#{f[1]}: #{new_points.length} points"
+	puts "#{f[0]}=#{f[1]}: #{new_points.length} points" 
 end
 
 xmin = new_points.collect { |p| p[0] }.min
